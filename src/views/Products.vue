@@ -16,13 +16,13 @@
           data(){
               return{
                   lista:[
-                    {nombre:"Açaí",url:"/Frutas/banana.jpeg"},
-                    {nombre:"Açaí",url:"/Frutas/cereza.jpeg"},
-                    {nombre:"Açaí",url:"/Frutas/fresa.jpeg"},
-                    {nombre:"Açaí",url:"/Frutas/manzana_verde.jpeg"},
-                    {nombre:"Açaí",url:"/Frutas/melocoton.jpeg"},
-                    {nombre:"Açaí",url:"/Frutas/piña.jpeg"},
-                    {nombre:"Açaí",url:"/Frutas/uvas.jpeg"},
+                    {nombre:"Banana",url:"/Frutas/banana.jpeg"},
+                    {nombre:"Cereza",url:"/Frutas/cereza.jpeg"},
+                    {nombre:"Fresa",url:"/Frutas/fresa.jpeg"},
+                    {nombre:"Manzana",url:"/Frutas/manzana_verde.jpeg"},
+                    {nombre:"Melocotón",url:"/Frutas/melocoton.jpeg"},
+                    {nombre:"Piña",url:"/Frutas/piña.jpeg"},
+                    {nombre:"Uvas",url:"/Frutas/uvas.jpeg"},
                   ],
               }
           },
@@ -36,24 +36,31 @@
 
 <style scoped>
   .about {
-    width: 60%;
+    width:60%;
     display: block;
-    margin:2% auto;
+    margin:6% auto;
+    color:rgba(149, 0, 255, 0.605);
   }
   h1{
     text-align: center;
   }
   img{
-    width: 60%;
+    display: block;
+    margin:auto;
+    width: 50%;
     height: 120px;
     border-radius: 50%;
+  }
+  button{
+    display:block;
+    margin: auto;
   }
   .inner{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   .polaroid{
     width: 250px;
