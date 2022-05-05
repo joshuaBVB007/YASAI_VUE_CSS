@@ -1,4 +1,5 @@
-<script>
+<script type="module">
+      import Counter from "../components/Counter.vue"
       export default{
         data(){
           return{
@@ -10,16 +11,16 @@
               logos:[
                   {url:"/Logos/sale.png"},
                   {url:"/Logos/shopping-bag.png"},
-                  {url:"/Logos/shopping-cart.png"}
-              ]
+              ],
+              contador_activo:true
           }
         },
-        methods:{
-
+        methods:{},
+        components:{
+            Counter
         }
       }        
 </script>
-
 <template>
   <div class="head_principal">
       <div class="header_one" v-for="icon of iconos" :key="icon">
@@ -27,6 +28,11 @@
       </div>
       <div class="header_two" v-for="logo of logos" :key="logo">
             <img :src="logo.url" alt="" srcset="">
+            <!-- <Counter/> -->
+      </div>
+      <div class="header_two">
+            <img src="./../../public/Logos/shopping-cart.png" alt="" srcset="">
+            <Counter/>
       </div>
   </div>
 </template>
@@ -45,6 +51,7 @@
       border-radius: 0 20px 20px 0;
     }
     .header_two{
+      position:relative;
       display:flex;
       flex-direction: column;
       border-radius: 0 20px 20px 0;

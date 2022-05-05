@@ -11,10 +11,10 @@
   </div>
 </template>
 
-<script>
+<script type="module">
       export default{
           data(){
-              return{
+             return{
                   lista:[
                     {nombre:"Banana",url:"/Frutas/banana.jpeg"},
                     {nombre:"Cereza",url:"/Frutas/cereza.jpeg"},
