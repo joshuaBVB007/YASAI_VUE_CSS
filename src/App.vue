@@ -19,6 +19,10 @@ import Header from '@/components/Header.vue'
     src: url("../src/assets/Bangers/Bangers-Regular.ttf");
   }
 
+  p{
+    font-family: letrita;
+  }
+
   *{
     font-family: letrita;
     margin:0;
