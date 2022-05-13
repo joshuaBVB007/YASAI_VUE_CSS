@@ -27,8 +27,5 @@ import Header from '@/components/Header.vue'
     font-family: letrita;
     margin:0;
   }
-  body{
-    background-image: url("../public/Desktop1.png")
-  }
 
 </style>

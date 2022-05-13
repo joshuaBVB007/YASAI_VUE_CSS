@@ -26,7 +26,7 @@
         margin: auto;
     }
     .enlace{
-        color:white;
+        color:black;
     }
     li{
         display: block;
