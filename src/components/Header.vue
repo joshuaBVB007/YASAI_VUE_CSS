@@ -8,10 +8,10 @@
                     <router-link class="enlace" to="/about">About</router-link>
                 </li>
                 <li>
-                    <router-link class="enlace" to="/about">Wall</router-link>
+                    <router-link class="enlace" to="/wall">Wall</router-link>
                 </li>
                 <li>
-                    <router-link class="enlace" to="/about">Contact</router-link>
+                    <router-link class="enlace" to="/contact">Contact</router-link>
                 </li>
             </ul>
         </div>
@@ -20,7 +20,6 @@
 
 <style scoped>
     .header{
-        /* background-color:blue; */
         display: block;
         width: 60%;
         margin: auto;
@@ -43,7 +42,6 @@
         height: 50px;
     }
     .inner{
-        /* background-color:yellow; */
         display: flex;
         flex-direction: row;
         align-items: center;

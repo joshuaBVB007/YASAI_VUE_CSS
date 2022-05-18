@@ -5,7 +5,7 @@
           <h1>{{item.nombre}}</h1>
           <img :src="item.url" alt="" srcset="">
           <button v-on:click="select_item">add</button>
-          <button @click="gotoshower(item.id)">details</button>
+          <button @click="gotoshower(item)">details</button>
       </div>
     </div>
   </div>
@@ -16,13 +16,13 @@
           data(){
              return{
                   lista:[
-                    {id:0,nombre:"Banana",url:"/Frutas/banana.jpeg"},
-                    {id:1,nombre:"Cereza",url:"/Frutas/cereza.jpeg"},
-                    {id:2,nombre:"Fresa",url:"/Frutas/fresa.jpeg"},
-                    {id:3,nombre:"Manzana",url:"/Frutas/manzana_verde.jpeg"},
-                    {id:4,nombre:"Melocotón",url:"/Frutas/melocoton.jpeg"},
-                    {id:5,nombre:"Piña",url:"/Frutas/piña.jpeg"},
-                    {id:6,nombre:"Uvas",url:"/Frutas/uvas.jpeg"},
+                    {id:0,nombre:"Banana",url:"Frutas/banana.jpeg"},
+                    {id:1,nombre:"Cereza",url:"Frutas/cereza.jpeg"},
+                    {id:2,nombre:"Fresa",url:"Frutas/fresa.jpeg"},
+                    {id:3,nombre:"Manzana",url:"Frutas/manzana_verde.jpeg"},
+                    {id:4,nombre:"Melocotón",url:"Frutas/melocoton.jpeg"},
+                    {id:5,nombre:"Piña",url:"Frutas/piña.jpeg"},
+                    {id:6,nombre:"Uvas",url:"Frutas/uvas.jpeg"},
                   ],
               }
           },
@@ -30,14 +30,8 @@
               select_item(){
                 console.log("you clicked");
               },
-              gotoshower(id){
-                this.$router.push({
-                  name:"shower",
-                  params: { 
-                    saludo:this.lista[id].nombre,
-                    url_img:this.lista[id].url,
-                  } 
-                })
+              gotoshower(object_){
+                this.$router.push({ name: 'shower',params: { nombre:object_.nombre,url:object_.url } })
               }
           }
       }

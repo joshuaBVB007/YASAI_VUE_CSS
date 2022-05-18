@@ -24,7 +24,7 @@ import Header from '@/components/Header.vue'
   }
 
   *{
-    font-family: letrita;
+    font-family: letrita, arial,italic;
     margin:0;
   }
 

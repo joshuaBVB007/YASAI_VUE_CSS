@@ -14,6 +14,16 @@ const router = createRouter({
       component: () => import('../views/About.vue')
     },
     {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/Contact.vue')
+    },
+    {
+      path: '/wall',
+      name: 'wall',
+      component: () => import('../views/Wall.vue')
+    },
+    {
       path: '/shower',
       name: 'shower',
       component: () => import('../views/ShowerProduct.vue')
