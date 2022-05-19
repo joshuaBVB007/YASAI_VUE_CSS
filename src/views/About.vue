@@ -51,70 +51,42 @@
 </script>
 
 <style scoped>
+    /* contenedor principal */
     .about{
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
     }
+    /* first container: children: h1,img.class=first_img, p.class=info */
     .first{
         width:100%;
-        margin:2%;
-        padding: 4%;
         border-radius: 50%;
-        height:20vh;
         background-color: yellow;
     }
-    .info{
-        font-size: medium;
-    }
-    .img_first{
-        float: left;
-        width: 14%;
-        height: 80px;   
-    }
-    h1{
-        text-align:center;
-        font-weight: normal;
-    }
-    /* second container */
+    /* second container  children:cards,h1 img.class=img_card,p*/
     .second{
-        margin:2%;
-        padding: 4%;
         width:100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    .img_card {
+    img{
         display:block;
+        width:50%;
         margin-left: auto;
         margin-right: auto;
-        width:50%;
-        height:80px;
+    }
+    p{
+        margin: 40px;
+        font-size: large;
+        text-align: center;
     }
     .card{
-        padding:20px;
-        width:20%;
-        height: 40vh;
-        border-radius: 10px;
+        border-radius: 50%;
         border-top: 12px solid rgba(8, 202, 40, 0.951);
         border-left: 12px solid rgb(194, 7, 163);
         border-right: 12px solid rgb(251, 247, 2);
-        border-bottom: 12px solid rgb(242, 15, 53);
         box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 1px 2px rgba(0,6px,20px,0.19);
-    }
-
-    @media screen and (max-width: 500px){
-        h1{
-            color:white;
-        }
-        .first{
-            background-color:transparent;
-        }
-        img{
-            float: left;
-            width: 40%;
-            height: 70px;   
-        }
     }
 
 </style>
