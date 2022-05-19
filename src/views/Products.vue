@@ -12,18 +12,20 @@
 </template>
 
 <script type="module">
+      export var lista_productos=[
+            {id:0,nombre:"Banana",url:"/Frutas/banana.jpeg"},
+            {id:1,nombre:"Cereza",url:"/Frutas/cereza.jpeg"},
+            {id:2,nombre:"Fresa",url:"/Frutas/fresa.jpeg"},
+            {id:3,nombre:"Manzana",url:"/Frutas/manzana_verde.jpeg"},
+            {id:4,nombre:"Melocotón",url:"/Frutas/melocoton.jpeg"},
+            {id:5,nombre:"Piña",url:"/Frutas/piña.jpeg"},
+            {id:6,nombre:"Uvas",url:"/Frutas/uvas.jpeg"},
+      ];
+
       export default{
           data(){
              return{
-                  lista:[
-                    {id:0,nombre:"Banana",url:"Frutas/banana.jpeg"},
-                    {id:1,nombre:"Cereza",url:"Frutas/cereza.jpeg"},
-                    {id:2,nombre:"Fresa",url:"Frutas/fresa.jpeg"},
-                    {id:3,nombre:"Manzana",url:"Frutas/manzana_verde.jpeg"},
-                    {id:4,nombre:"Melocotón",url:"Frutas/melocoton.jpeg"},
-                    {id:5,nombre:"Piña",url:"Frutas/piña.jpeg"},
-                    {id:6,nombre:"Uvas",url:"Frutas/uvas.jpeg"},
-                  ],
+                  lista:lista_productos
               }
           },
           methods:{
@@ -31,7 +33,8 @@
                 console.log("you clicked");
               },
               gotoshower(object_){
-                this.$router.push({ name: 'shower',params: { nombre:object_.nombre,url:object_.url } })
+                let id_obj=object_.id;
+                this.$router.push({path:`/shower/${id_obj}`})
               }
           }
       }
