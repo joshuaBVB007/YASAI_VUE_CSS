@@ -42,26 +42,35 @@
 
 <style scoped>
   .about {
-    width:60%;
+    width:80%;
     display: block;
     margin:6% auto;
-    color:rgba(149, 0, 255, 0.605);
   }
   h1{
     text-align: center;
+    font-size:xx-large;
+    color:rgb(8, 238, 165);
   }
   img{
     display: block;
     margin:auto;
-    width: 50%;
-    height: 120px;
+    width: 80%;
+    height: 180px;
     border-radius: 50%;
   }
   button{
     display:block;
-    margin: auto;
+    margin:4px auto;
+    padding: 4px;
+    border-radius: 20px;
+    font-size:large;
+    background-color:pink;
+    color:black;
+    border:none;
   }
   .inner{
+    margin: auto;
+    width: 80%;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -69,7 +78,7 @@
     justify-content: center;
   }
   .polaroid{
-    width: 250px;
+    width:40%;
     border-radius: 50%;
   }
 </style>

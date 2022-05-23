@@ -22,48 +22,43 @@
       }        
 </script>
 <template>
-  <div class="head_principal">
-      <div class="header_one" v-for="icon of iconos" :key="icon">
-            <img :src="icon.url" alt="" srcset="">
-      </div>
-      <div class="header_two" v-for="logo of logos" :key="logo">
-            <img :src="logo.url" alt="" srcset="">
-            <!-- <Counter/> -->
-      </div>
-      <div class="header_two">
-            <img src="./../../public/Logos/shopping-cart.png" alt="" srcset="">
-            <Counter/>
+  <div class="container">
+      <div class="head_principal">
+            <div class="header_one" v-for="icon of iconos" :key="icon">
+                  <img class="imagen" :src="icon.url" alt="" srcset="">
+            </div>
+            <div class="header_two" v-for="logo of logos" :key="logo">
+                  <img class="imagen" :src="logo.url" alt="" srcset="">
+            </div>
+            <div class="header_two">
+                  <img class="imagen" src="./../../public/Logos/shopping-cart.png" alt="" srcset="">
+                  <Counter/>
+            </div>
       </div>
   </div>
 </template>
 
 <style scoped>
-    .head_principal {
-          position:fixed;
-          top:10%;
-          width:8%;
-          background-color:white;
-          border-radius:20px;
+    .container{
+      position:fixed;
+      bottom: 0;
+      width: 100%;
+      /* background-color:yellow; */
     }
-    .header_one{
-      display:flex;
-      flex-direction: column;
-      border-radius: 0 20px 20px 0;
+    .head_principal {
+          display:flex;
+          flex-direction:row;
+          background-color:rgb(8, 157, 231);
+          border-radius:20px;
+          width:20%;
+          margin: auto;
     }
     .header_two{
       position:relative;
-      display:flex;
-      flex-direction: column;
-      border-radius: 0 20px 20px 0;
     }
-    img{
+    .imagen{
        margin: 6px;
-    }
-
-    @media screen and (min-width: 1000px){
-          .head_principal{
-            width:3%;
-          }      
+       width:30px;
     }
 
 </style>

@@ -8,7 +8,7 @@
                     <router-link class="enlace" to="/about">About</router-link>
                 </li>
                 <li>
-                    <router-link class="enlace" to="/wall">Wall</router-link>
+                    <router-link class="enlace" to="/products">Products</router-link>
                 </li>
                 <li>
                     <router-link class="enlace" to="/contact">Contact</router-link>
