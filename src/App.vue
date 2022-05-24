@@ -17,7 +17,7 @@ import Roulette from '@/views/Roulette.vue'
 <style>
 
   :root{
-    --styleBackground:white;
+    --styleBackground:#DAF7A6;
   }
 
   @font-face {

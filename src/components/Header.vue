@@ -2,7 +2,7 @@
     <div class="header">
         <div class="inner">
             <img src="../../public/manzana_banana.png" alt="" srcset="">
-            <h1><span>Quick&</span>Easy</h1>
+            <h1><span>Quick & </span>Easy</h1>
             <ul>
                 <li>
                     <router-link class="enlace" to="/about">About</router-link>
@@ -22,10 +22,12 @@
     .header{
         display: block;
         width: 60%;
-        margin: auto;
+        margin:0 auto;
+        border-bottom: 6px solid rgb(6, 100, 168);
     }
     .enlace{
-        color:black;
+        color:rgb(6, 100, 168);
+        text-decoration: none;
     }
     li{
         display: block;
@@ -35,7 +37,8 @@
         color:rgb(17, 232, 160);
     }
     span{
-        color: rgb(232, 17, 121);
+        color: rgb(6, 100, 168);
+        font-weight: normal;
     }
     img{
         width: 50px;

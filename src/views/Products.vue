@@ -36,7 +36,6 @@
                 ? this.lista.filter((item) => item.nombre.toLowerCase().includes(this.nameOfproduct.toLowerCase()))
                 : this.lista
               }
-              // item.nombre.toLowerCase().includes(texto.toLowerCase())
           },
           methods:{
               select_item(){
@@ -66,6 +65,7 @@
   }
   h1{
     text-align: center;
+    font-weight: normal;
     font-size:x-large;
   }
   img{
