@@ -1,6 +1,6 @@
 <template>
-    <div class="counter">
-        <h1>{{ cantidad }}</h1>
+    <div class="header_two">
+                  {{cantidad}}
     </div>
 </template>
 
@@ -18,6 +18,10 @@
             return {
                 cantidad:0
             }
+        },
+        emits:["add"],
+        created(){
+            this.$emit('add', 'hello from child')
         },
         methods:{
             increase(){
