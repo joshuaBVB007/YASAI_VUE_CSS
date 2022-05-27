@@ -78,7 +78,7 @@
   img{
     display: block;
     margin:auto;
-    width: 40%;
+    width: 50%;
     height: 120px;
     border-radius: 50%;
     border: 10px solid black;
@@ -103,5 +103,12 @@
   .polaroid{
     width:30%;
     border-radius: 50%;
+  }
+
+
+  @media screen and (max-width:540px){
+          .polaroid{
+            width:50%;
+          }
   }
 </style>
