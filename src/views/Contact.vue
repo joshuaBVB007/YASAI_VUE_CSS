@@ -1,16 +1,15 @@
 <template>
         <div class="container">
-            <h1>Check the point in the map</h1>
-            <iframe class="mapa"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.048169123567!2d2.024250214794089!3d41.30781570888827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49cff4b924fa1%3A0xb15cdecec126b388!2sGreenVita%20Viladecans!5e0!3m2!1ses!2ses!4v1635259541952!5m2!1ses!2ses" 
-            style="border:0;width:100%;height:60vh;" loading="lazy">
-            </iframe>
+            <div class="form">
+                <input type="text" placeholder="name?">
+                <input type="text" placeholder="email?">
+                <input type="text" placeholder="phone number?">
+                <button>Send</button>
+            </div>
             <p> 
-                <prev>
-                    Located at: Viladecans The Style Outlets <br>
-                    Address: Ctra. de la Vila, 90, 08840 Viladecans, Barcelona <br>
-                    Telephone: 932 80 79 90
-                </prev>
+                Located at: Viladecans The Style Outlets <br>
+                Address: Ctra. de la Vila, 90, 08840 Viladecans, Barcelona <br>
+                Telephone: 932 80 79 90
             </p>
         </div>
 </template>
@@ -20,6 +19,28 @@
             width:50%;
             margin: 0 auto;
             background-color:pink;
+        }
+        .form{
+            width: 60%;
+            margin: auto;
+        }
+        button{
+            display: block;
+            margin: 2px auto;
+            padding: 10px;
+            font-size: x-large;
+            border-radius: 20%;
+            background-color:yellow;
+            border: none;
+        }
+        input{
+            display: block;
+            margin: 0 auto;
+            height: 40px;
+            width:100%;
+            font-size:x-large;
+            border:none;
+            margin: 2%;
         }
         h1{
             text-align: center;

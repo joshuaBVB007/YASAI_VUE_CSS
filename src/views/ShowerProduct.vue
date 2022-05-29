@@ -2,6 +2,7 @@
     <div class="container">
         <img :src="img" alt="img_fruta_nananan">
         <h1>{{ id }}</h1>
+        <p>{{ desc }}</p>
     </div>    
 </template>
 
@@ -13,6 +14,7 @@ export default {
         return {
             id:this.$route.params.id,
             img:lista_productos[this.$route.params.id].url,
+            desc: lista_productos[this.$route.params.id].desc,
         }
     },
     methods:{
@@ -36,9 +38,22 @@ export default {
         img{
             display:block;
             margin: 0 auto;
+            max-width: 100%;
+            height: auto;
         }
         h1{
             text-align: center;
+            font-size: 2vw;
+        }
+        p{
+            font-size: 2vw;
+        }
+
+
+        @media screen and (max-width:920px) {
+                p{
+                    font-size:5vw;
+                }
         }
 </style>
 

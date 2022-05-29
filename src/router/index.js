@@ -19,8 +19,8 @@ const router = createRouter({
       component: () => import('../views/Contact.vue')
     },
     {
-      path: '/wall',
-      name: 'wall',
+      path: '/recipes',
+      name: 'recipes',
       component: () => import('../views/Wall.vue')
     },
     {

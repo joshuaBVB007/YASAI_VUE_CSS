@@ -16,13 +16,44 @@
 <script type="module">
       import  Block from "../components/Block.vue";
       export var lista_productos=[
-            {id:0,nombre:"Banana",url:"/Frutas/banana.jpeg"},
-            {id:1,nombre:"Cereza",url:"/Frutas/cereza.jpeg"},
-            {id:2,nombre:"Fresa",url:"/Frutas/fresa.jpeg"},
-            {id:3,nombre:"Manzana",url:"/Frutas/manzana_verde.jpeg"},
-            {id:4,nombre:"Melocotón",url:"/Frutas/melocoton.jpeg"},
-            {id:5,nombre:"Piña",url:"/Frutas/piña.jpeg"},
-            {id:6,nombre:"Uvas",url:"/Frutas/uvas.jpeg"},
+            {id:0,nombre:"Banana",url:"/Frutas/banana.jpeg",
+            desc:`Es un fruto con cualidades variables en tamaño,
+            color y firmeza, alargado, generalmente curvado y carnoso, 
+            rico en almidón cubierto con una cáscara, que puede ser verde, 
+            amarilla, roja, púrpura o marrón cuando está madura.`},
+
+            {id:1,nombre:"Cereza",url:"/Frutas/cereza.jpeg",
+            desc:`Es un fruto con cualidades variables en tamaño,
+            color y firmeza, alargado, generalmente curvado y carnoso, 
+            rico en almidón cubierto con una cáscara, que puede ser verde, 
+            amarilla, roja, púrpura o marrón cuando está madura.`},
+
+            {id:2,nombre:"Fresa",url:"/Frutas/fresa.jpeg",
+            desc:`Es un fruto con cualidades variables en tamaño,
+            color y firmeza, alargado, generalmente curvado y carnoso, 
+            rico en almidón cubierto con una cáscara, que puede ser verde, 
+            amarilla, roja, púrpura o marrón cuando está madura.`},
+
+            {id:3,nombre:"Manzana",url:"/Frutas/manzana_verde.jpeg",
+            desc:`Es un fruto con cualidades variables en tamaño,
+            color y firmeza, alargado, generalmente curvado y carnoso, 
+            rico en almidón cubierto con una cáscara, que puede ser verde, 
+            amarilla, roja, púrpura o marrón cuando está madura.`},
+
+            {id:4,nombre:"Melocotón",url:"/Frutas/melocoton.jpeg",desc:`Es un fruto con cualidades variables en tamaño,
+            color y firmeza, alargado, generalmente curvado y carnoso, 
+            rico en almidón cubierto con una cáscara, que puede ser verde, 
+            amarilla, roja, púrpura o marrón cuando está madura.`},
+
+            {id:5,nombre:"Piña",url:"/Frutas/piña.jpeg",desc:`Es un fruto con cualidades variables en tamaño,
+            color y firmeza, alargado, generalmente curvado y carnoso, 
+            rico en almidón cubierto con una cáscara, que puede ser verde, 
+            amarilla, roja, púrpura o marrón cuando está madura.`},
+
+            {id:6,nombre:"Uvas",url:"/Frutas/uvas.jpeg",desc:`Es un fruto con cualidades variables en tamaño,
+            color y firmeza, alargado, generalmente curvado y carnoso, 
+            rico en almidón cubierto con una cáscara, que puede ser verde, 
+            amarilla, roja, púrpura o marrón cuando está madura.`},
       ];
 
       export default{
