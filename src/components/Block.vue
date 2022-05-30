@@ -25,7 +25,7 @@
             </div>
             <div class="block_one">
               <img class="imagen" src="/public/Logos/shopping-cart.png" alt="" srcset="">
-              <h1 class="counter">{{counter}}</h1>
+              <h1  class="counter">{{counter}}</h1>
             </div>
       </div>
   </div>
