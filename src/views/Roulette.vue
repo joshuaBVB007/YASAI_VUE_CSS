@@ -10,7 +10,7 @@
                 <img src="../../public/Logos/platano.png"  alt="icon">
             </div>
             <div @click="setBackgroundTo(3)" class="icon_third">
-                <img src="../../public/Logos/fresa.png"  alt="icon">
+                <img src="../../public/Logos/coco.png"  alt="icon">
             </div>
             <div @click="setBackgroundTo(4)" class="icon_fourth">
                 <img src="../../public/Logos/uvas_.png"  alt="icon">
@@ -34,9 +34,9 @@ export default {
             }else if(number_===2){
                 rs.style.setProperty('--styleBackground', '#F5FB3A')
             }else if(number_===3){
-                rs.style.setProperty('--styleBackground', '#EE5382')
+                rs.style.setProperty('--styleBackground', '#ECC9B9')
             }else if(number_===4){
-                rs.style.setProperty('--styleBackground', '#EE53E4')
+                rs.style.setProperty('--styleBackground', '#D16CB4')
             }
         }
     },

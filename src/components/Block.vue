@@ -65,4 +65,9 @@
        width:30px;
     }
 
+    .imagen:hover{
+      margin: 6px;
+      width:50px;
+    }
+
 </style>
