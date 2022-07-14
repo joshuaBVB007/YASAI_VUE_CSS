@@ -75,7 +75,6 @@
         }
         .recipe_one{
             width: 100%;
-            background-color:pink;
         }
         .square{
             width:100%;

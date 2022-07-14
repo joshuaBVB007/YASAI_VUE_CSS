@@ -32,11 +32,11 @@ export default {
             if(number_===1){
                 rs.style.setProperty('--styleBackground', '#DAF7A6')
             }else if(number_===2){
-                rs.style.setProperty('--styleBackground', '#F5FB3A')
+                rs.style.setProperty('--styleBackground', '#E9DA5E')
             }else if(number_===3){
-                rs.style.setProperty('--styleBackground', '#ECC9B9')
+                rs.style.setProperty('--styleBackground', '#D8AEAB')
             }else if(number_===4){
-                rs.style.setProperty('--styleBackground', '#D16CB4')
+                rs.style.setProperty('--styleBackground', '#F08DD3')
             }
         }
     },

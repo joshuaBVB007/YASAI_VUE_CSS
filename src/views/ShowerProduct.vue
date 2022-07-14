@@ -7,7 +7,7 @@
 </template>
 
 <script type="module">
-import { lista_productos } from './Products.vue'
+// import { lista_productos } from './Products.vue'
 
 export default {
     data(){

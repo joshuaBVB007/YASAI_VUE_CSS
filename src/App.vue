@@ -29,6 +29,18 @@ import Roulette from '@/views/Roulette.vue'
     background-color: var(--styleBackground)
   }
 
+  button{
+    display:block;
+    margin:4px auto;
+    padding:10px;
+    width: 50%;
+    border-radius: 10px;
+    font-size:1.4vw;
+    background-color:rgb(240, 94, 118);
+    color:black;
+    border:none;
+  }
+
   p{
     font-family: letrita;
   }

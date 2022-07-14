@@ -2,42 +2,39 @@
     <div class="container">
             <div class="icons">
                 <h1>{{nombre}}</h1>
-                <div class="icon">
-                    <img @click="setPostres('Postres')"  src="/cupcake.png" alt="">
+                <div class="icon" @click="setPostres('Postres')">
+                    <img   src="/Logos/cupcake.png" alt="">
                 </div>
-                <div class="icon">
-                    <img @click="setSmoothies('Smoothies')"  src="/smoothie.png" alt="">
+                <div class="icon" @click="setSmoothies('Smoothies')">
+                    <img   src="/Logos/smoothie.png" alt="">
                 </div>
-                <div class="icon">
-                    <img @click="setFrutas('Frutas')" src="/frutas.png" alt="">
+                <div class="icon" @click="setFrutas('Frutas')">
+                    <img  src="/Logos/frutas.png" alt="">
                 </div>
             </div>
     </div>    
 </template>
 
 <script type="module">
+
         export default {
             emits: ['frutas','postres','smoothies'],
             data(){
                 return{
-                    nombre:this.message,
+                    nombre:"Menu",
                 }
             },
             methods:{
                 setPostres(){
-                    console.log('postres')
                     this.$emit('postres')
                 },
                 setSmoothies(){
-                    console.log("smoothie")
                     this.$emit('smoothies')
                 },
                 setFrutas(){
-                    console.log("frutas")
                     this.$emit('frutas')
-                }
+                },
             },
-            inject:['message']
         }
 </script>
 

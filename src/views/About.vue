@@ -2,7 +2,7 @@
     <div class="about">
         <div class="first">
                 <h1>Eating fruits..</h1>
-                <img class="img_first" src="../../public/manzana_banana.png" alt="">
+                <img class="img_first" src="../../public/Logos/manzana_banana.png" alt="">
                 <p class="info">Levels have been added to the MyPlate Quiz.
                     Take the quiz today to find out your level and get personalized resources to Start Simple with MyPlate.
                     Levels have been added to the MyPlate Quiz.
