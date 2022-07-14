@@ -1,17 +1,7 @@
-## Project Setup
+Hi guys if you wanna run this app you have to follow the next step
 
-```sh
-npm install
-```
+1-download or clone this project
+2-install node packages in this project with command "npm install" at source folder
+3-type in console "npm run dev"
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Have a nice day and thanks to stop for a while to see my work <3
