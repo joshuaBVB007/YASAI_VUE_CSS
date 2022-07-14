@@ -1,4 +1,4 @@
-Hi guys if you wanna run this app you have to follow the next step
+Hi guys if you wanna run this app you have to follow the next steps
 
 1-download or clone this project
 2-install node packages in this project with command "npm install" at source folder
