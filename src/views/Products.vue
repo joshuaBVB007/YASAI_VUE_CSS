@@ -81,6 +81,12 @@
     font-size:x-large;
   }
 
+  button{
+    font-size:large;
+    text-align: center;
+    width:100%;
+  }
+
   .prize_product{
     position: relative;
   }
@@ -127,7 +133,7 @@
 
   @media screen and (max-width:540px){
           .polaroid{
-            width:50%;
+            width:60%;
           }
   }
 </style>
