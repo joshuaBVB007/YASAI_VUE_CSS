@@ -3,7 +3,7 @@
             <div class="form">
                 <div class="form_section">
                     <img src="../../public/Logos/email.png" alt="">
-                    <input type="text" placeholder="Cual es tu correo?">
+                    <input type="text" placeholder="correo?">
                 </div>
                 <div class="form_section">
                     <img src="../../public/Logos/llamada-telefonica.png" alt="">
@@ -11,7 +11,7 @@
                 </div>
                 <div class="form_section">
                     <img src="../../public/Logos/usuario.png" alt="">
-                    <input type="" placeholder="Nombre usuario?">
+                    <input type="" placeholder="usuario?">
                 </div>
                 <div class="form_section">
                     <textarea   placeholder="Escribe tu mensaje"></textarea>  
@@ -44,7 +44,7 @@
             /* background-color:pink; */
         }
         .form{
-            width: 60%;
+            width: 100%;
             margin: auto;
         }
         .form_section{
@@ -56,18 +56,18 @@
             position: absolute;
             top: 10px;
             left: 20px;
-            width: 20px;
-            height: 20px;
+            width: 16px;
+            height: 16px;
         }
         input{
             display: block;
             margin: 0 auto;
             height: 40px;
-            width:90%;
+            width:100%;
             border: none;
             color:none;
-            font-size:x-large;
-            margin: 2%;
+            font-size:large;
+            /* margin: 2%; */
         }
         input:focus{
             outline: none;
@@ -77,18 +77,21 @@
             border-bottom: 4px solid rgb(240, 112, 112);
         }
         input[placeholder]{
-            padding-left: 10%;
+            text-align: center;
         }
         textarea{
             display: block;
-            margin: 0 auto;
+            margin: 20px auto;
             height: 40px;
             width:100%;
             height: 140px;
             border-radius: 20px;
-            font-size:x-large;
+            font-size:large;
             border:none;
-            margin: 2%;
+            text-align: center;
+        }
+        button{
+            font-size:large;
         }
         h1{
             text-align: center;

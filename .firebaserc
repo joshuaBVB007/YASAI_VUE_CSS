@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "yasaibackend"
-  }
+  },
+  "targets": {
+    "yasaibackend": {
+      "hosting": {
+        "web": [
+          "putilla"
+        ],
+        "vueversion": [
+          "yasaivue"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
